@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPSDroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="location">Location:</string>
+    <string name="set_initial_location">Set Initial Location</string>
+    <string name="distance">Distance:</string>
+    <string name="total">Total:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="gps_disabled">GPS Disabled</string>
+    <string name="ask_gps_settings">Would you like to enable the GPS on settings ?</string>
+
+</resources>
