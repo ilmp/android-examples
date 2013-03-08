@@ -15,11 +15,8 @@ uniform vec3 uLightPosition;
 varying vec3 vPosition;
 
 void main(){
-    // light position
-    vec3 lightPosition = vec3(-0.5, 0.8, -2.0);
-    
     // light distance
-    float distance = length(lightPosition - vPosition);
+    float distance = length(uLightPosition - vPosition);
     
     // diffuse lighting with attenuation
     float diffuse = 2.0 * (1.0 / (1.0 + (0.2 * distance * distance)));
